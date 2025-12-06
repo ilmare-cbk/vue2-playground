@@ -1,0 +1,27 @@
+# EditorConfig helps developers define and maintain consistent
+# coding styles between different editors and IDEs.
+
+root = true
+
+# General settings for all files
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 2
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# For Markdown files (.md), keep trailing spaces (important for formatting)
+[*.md]
+trim_trailing_whitespace = false
+
+# For package.json, maintain 2-space indentation (npm default)
+[package.json]
+indent_style = space
+indent_size = 2
+
+# For JSON, JS, TS, Vue files (2025 기준 표준)
+[*.{js,jsx,ts,tsx,vue,json}]
+indent_style = space
+indent_size = 2

@@ -1,0 +1,41 @@
+{
+  "name": "vue2-playground",
+  "version": "1.0.0",
+  "description": "Vue 2.6 with TypeScript 4.1 project",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "2.6.14",
+    "vuetify": "^2.6.14"
+  },
+  "devDependencies": {
+    "@types/node": "^14.18.63",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "@vue/cli-plugin-eslint": "~4.5.19",
+    "@vue/cli-plugin-typescript": "~4.5.19",
+    "@vue/cli-service": "~4.5.19",
+    "@vue/eslint-config-standard": "^6.1.0",
+    "@vue/eslint-config-typescript": "^9.1.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "sass": "^1.32.13",
+    "sass-loader": "^10.1.1",
+    "typescript": "4.1.6",
+    "vue-class-component": "^7.2.6",
+    "vue-property-decorator": "^9.1.2",
+    "vue-template-compiler": "2.6.14"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

@@ -1,0 +1,12 @@
+node_modules
+dist
+coverage
+public
+
+# 빌드 결과물
+*.min.js
+*.bundle.js
+
+# 설정 파일은 Lint 대상에서 제외하고 싶다면
+webpack.config.js
+vue.config.js

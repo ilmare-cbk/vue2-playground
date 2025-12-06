@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "ESNext",
+    "lib": ["ES2018", "DOM", "DOM.Iterable"],
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+
+    // Vue 2에서 최적
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+
+    "jsx": "preserve",
+
+    // JS 파일을 사용하지 않으면 false
+    "allowJs": false,
+
+    // Vue + TS에서 가장 중요
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": false,
+    "useDefineForClassFields": false,
+
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+
+    // isolatedModules는 Vue2에서 충돌 요소
+    "isolatedModules": false,
+
+    // Node 타입만 추가
+    "types": ["node"]
+  },
+
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"],
+  "exclude": ["node_modules"]
+}
