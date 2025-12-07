@@ -5,6 +5,10 @@ Vue.use(VueRouter)
 
 const routes: RouteConfig[] = [
   {
+    path: '/',
+    redirect: '/sample'
+  },
+  {
     path: '/sample',
     name: 'SAMPLE',
     component: () => import('@/views/sample/SamplePage.vue')
