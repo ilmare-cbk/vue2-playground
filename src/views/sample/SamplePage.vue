@@ -1,14 +1,6 @@
 <template>
   <div>
-    <v-app-bar app color="primary" dark>
-      <v-toolbar-title>{{ message }}</v-toolbar-title>
-    </v-app-bar>
-
-    <v-main>
-      <v-container>
-        <HelloWorld msg="Vue 2 + TypeScript + Vuetify 프로젝트에 오신 것을 환영합니다!" />
-      </v-container>
-    </v-main>
+    <HelloWorld msg="Vue 2 + TypeScript + Vuetify 프로젝트에 오신 것을 환영합니다!" />
   </div>
 </template>
 
@@ -21,7 +13,5 @@ import HelloWorld from '@/components/HelloWorld.vue'
     HelloWorld
   }
 })
-export default class App extends Vue {
-  message = 'Vue 2 + TypeScript + Vuetify'
-}
+export default class SamplePage extends Vue {}
 </script>
