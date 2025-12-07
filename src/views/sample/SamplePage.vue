@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <div>
     <v-app-bar app color="primary" dark>
       <v-toolbar-title>{{ message }}</v-toolbar-title>
     </v-app-bar>
@@ -9,7 +9,7 @@
         <HelloWorld msg="Vue 2 + TypeScript + Vuetify 프로젝트에 오신 것을 환영합니다!" />
       </v-container>
     </v-main>
-  </v-app>
+  </div>
 </template>
 
 <script lang="ts">
